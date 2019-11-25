@@ -5,7 +5,7 @@ import (
 	"sync"
 )
 
-// A map of registered matchers for searching.
+// 注册用于搜索的匹配器的映射
 var matchers = make(map[string]Matcher)
 
 // Run performs the search logic.
